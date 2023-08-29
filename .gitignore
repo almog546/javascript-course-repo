@@ -1,0 +1,45 @@
+# Dependency directories
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Compiled output
+dist/
+build/
+out/
+public/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.iml
+
+# npm lock file
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Testing and debugging
+coverage/
+.nyc_output/
+*.pid
+*.seed
+*.pid.lock
+
+# Config files that may contain sensitive information
+config.js
+config.json
+
+# Dependency cruft
+*.rbc
+*.sbr
+sbr.lock

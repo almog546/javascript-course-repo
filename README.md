@@ -11,7 +11,7 @@ This repository serves as a testament to my dedication and enthusiasm for master
 [What to learn before learning React](https://dev.to/stephanieopala/what-to-learn-before-learning-react-1a6h)
 
 ## useful links
-soon...
+[step by step visualizer](https://pythontutor.com/visualize.html#mode=edit)
 
 ## youtube tutorial
 soon...

@@ -62,3 +62,5 @@ myList = [
 console.log(myList[3][1]);
 console.log(myList[4].firstname);
 console.log(myList[2]);
+
+console.log(myList[1] = 1); // update array

@@ -13,5 +13,7 @@ This repository serves as a testament to my dedication and enthusiasm for master
 ## useful links
 [step by step visualizer](https://pythontutor.com/visualize.html#mode=edit)
 
+[learn js online](https://learnjavascript.online)
+
 ## youtube tutorial
 soon...

@@ -48,19 +48,30 @@
 // console.log(text.replace('Python', 'JavaScript'));
 
 // Array
-let myList = []; //empty array
-let go = () => console.log("Hello World");
+// let myList = []; //empty array
+// let go = () => console.log("Hello World");
 
-myList = [
-  "banana",
-  3,
-  go,
-  ["John", "Lee"],
-  { firstname: "John", lastname: "Smith" },
-];
+// myList = [
+//   "banana",
+//   3,
+//   go,
+//   ["John", "Lee"],
+//   { firstname: "John", lastname: "Smith" },
+// ];
 
-console.log(myList[3][1]);
-console.log(myList[4].firstname);
-console.log(myList[2]);
+// console.log(myList[3][1]);
+// console.log(myList[4].firstname);
+// console.log(myList[2]);
 
-console.log(myList[1] = 1); // update array
+// console.log(myList[1] = 1); // update array
+
+// The most common question in job interviews is about array methods
+
+// Clone of myList
+let myList = [1, 2, 3, 4, 5, 6, 7];
+
+let newList = [];
+
+newList = myList;
+
+console.log(newList);

@@ -104,6 +104,38 @@
 
 // console.log(capitalizedNames);
 
+// filter()
+
 // Here's the basic syntax of the filter() method using an arrow function:
 // const newArray = array.filter(element => condition);
 
+// Example 1: Filtering even numbers
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const evenNumbers = numbers.filter((num) => num % 2 == 0);
+
+// console.log(evenNumbers);
+
+// Example 2: Filtering objects based on a property
+
+// const products = [
+//   { name: "Apples", category: "Fruit" },
+//   { name: "Carrots", category: "Vegetable" },
+//   { name: "Bananas", category: "Fruit" },
+//   { name: "Broccoli", category: "Vegetable" },
+// ];
+
+// const fruits = products.filter(product => product.category == "Fruit");
+
+// console.log(fruits);
+
+// Example 3: Filtering based on array element's index
+
+// In this example, the arrow function filters out elements at even indices, resulting in an array containing elements at indices 0, 2, and 4.
+
+const numbers = [10, 20, 30, 40, 50];
+
+const filteredNumbers = numbers.filter((number, index) => index % 2 == 0);
+
+console.log(filteredNumbers);

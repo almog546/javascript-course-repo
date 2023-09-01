@@ -78,8 +78,62 @@
 
 // using map() method
 
-let myList = [1, 2, 3, 4, 5, 6, 7];
+// example 1
 
-newList = myList.map(number => number + 10);
+// let myList = [1, 2, 3, 4, 5, 6, 7];
 
-console.log(newList);
+// newList = myList.map(number => number + 10);
+
+// console.log(newList);
+
+// example 2
+
+// const fruits = [
+//   {
+//     name: "Apple",
+//     price: 25,
+//   },
+//   {
+//     name: "Banana",
+//     price: 40,
+//   },
+//   {
+//     name: "Melon",
+//     price: 75,
+//   },
+// ];
+
+// newFruits = fruits.map((fruit) => fruit.price);
+
+// console.log(newFruits)
+
+// example 2
+
+// const users = [
+//   {
+//     firstName: "John",
+//     lastName: "Tom",
+//   },
+//   {
+//     firstName: "Jessa",
+//     lastName: "Saragosa",
+//   },
+//   {
+//     firstName: "Anthony",
+//     lastName: "Tony",
+//   },
+// ];
+
+// newUsers = users.map((user) => `${user.firstName} ${user.lastName}`);
+
+// console.log(newUsers)
+
+// filter
+
+const numbers = [1, 2, 3, 4, 5, 6, 7];
+
+let evenNums = [];
+
+evenNums = numbers.filter((num) => num % 2 == 0);
+
+console.log(evenNums);

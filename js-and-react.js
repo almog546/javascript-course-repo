@@ -134,8 +134,68 @@
 
 // In this example, the arrow function filters out elements at even indices, resulting in an array containing elements at indices 0, 2, and 4.
 
+// const numbers = [10, 20, 30, 40, 50];
+
+// const filteredNumbers = numbers.filter((number, index) => index % 2 == 0);
+
+// console.log(filteredNumbers);
+
+// Exercise 1: Filter even numbers
+
+// Given an array of numbers, create a new array that contains only the even numbers.
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const evenNumbers = numbers.filter((num) => num % 2 == 0);
+
+// console.log(evenNumbers);
+
+// Exercise 2: Filter positive numbers
+
+// Given an array of numbers, create a new array that contains only the positive numbers.
+
+// const numbers = [-2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const positiveNum = numbers.filter(
+//   num => num >= 0
+// );
+
+// console.log(positiveNum)
+
+// Exercise 3: Filter products by price
+
+// Given an array of products, create a new array that contains only products with a price less than $50.
+
+// const products = [
+//   { name: "Laptop", price: 800 },
+//   { name: "Phone", price: 400 },
+//   { name: "Tablet", price: 120 },
+//   { name: "Headphones", price: 60 },
+//   { name: "Mouse", price: 20 },
+// ];
+
+// const affordableProducts = products.filter((product) => product.price < 50);
+
+// console.log(affordableProducts);
+
+// Exercise 4: Filter strings by length
+
+// Given an array of strings, create a new array that contains only strings with a length greater than 5 characters.
+
+// const words = ["apple", "banana", "cherry", "date", "elderberry", "fig"];
+
+// const shortWords = words.filter((word) => word.length > 5);
+
+// console.log(shortWords);
+
+// Exercise 5: Filter even-indexed elements
+
+// Given an array of numbers, create a new array that contains only elements at even indices (0, 2, 4, etc.).
+
 const numbers = [10, 20, 30, 40, 50];
 
-const filteredNumbers = numbers.filter((number, index) => index % 2 == 0);
+const evenIndices = numbers.filter(
+  (num, index) => index % 2 == 0 
+);
 
-console.log(filteredNumbers);
+console.log(evenIndices)

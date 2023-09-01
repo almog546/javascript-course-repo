@@ -68,10 +68,18 @@
 // The most common question in job interviews is about array methods
 
 // Clone of myList
+// let myList = [1, 2, 3, 4, 5, 6, 7];
+
+// let newList = [];
+
+// newList = myList;
+
+// console.log(newList);
+
+// using map() method
+
 let myList = [1, 2, 3, 4, 5, 6, 7];
 
-let newList = [];
-
-newList = myList;
+newList = myList.map(number => number + 10);
 
 console.log(newList);

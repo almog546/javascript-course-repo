@@ -59,10 +59,51 @@
 //   // Return the changed currentItem
 // });
 
-const numbers = [2, 4, 6, 8];
+// const numbers = [2, 4, 6, 8];
 
-const doubleNumbers = numbers.map(function (number) {
-  return number * 2; // double the number
-});
+// const doubleNumbers = numbers.map(function (number) {
+//   return number * 2; // double the number
+// });
 
-console.log(doubleNumbers);
+// console.log(doubleNumbers);
+
+// Exercise 1: Convert Temperatures
+
+// You have a list of temperatures in Celsius: [0, 10, 20, 30].
+// You want to change each temperature to Fahrenheit using the formula: (Celsius * 9/5) + 32.
+// Here's how you can use map() to do it:
+// let temperatures = [0, 10, 20, 30]; // temperatures in Celsius
+
+// const temperaturesInFahrenheit = temperatures.map(function (celsius) {
+//   return (celsius * 9) / 5 + 32; // change each temperature to Fahrenheit
+// });
+
+// console.log(temperaturesInFahrenheit);
+
+// Exercise 2: Capitalize Names
+
+// You have a list of names: ["alice", "bob", "charlie"].
+// You want to make the first letter of each name uppercase.
+// Use map() to achieve this:
+
+// let names = ["alice", "bob", "charlie"];
+
+// const capitalizedNames = names.map(function(name){
+//   return name.charAt(0).toUpperCase() + name.slice(1);
+// });
+
+// console.log(capitalizedNames);
+
+// map() in arrow function
+
+// let names = ["alice", "bob", "charlie"];
+
+// const capitalizedNames = names.map(
+//   (name) => name.charAt(0).toUpperCase() + name.slice(1)
+// );
+
+// console.log(capitalizedNames);
+
+// Here's the basic syntax of the filter() method using an arrow function:
+// const newArray = array.filter(element => condition);
+

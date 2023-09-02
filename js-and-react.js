@@ -192,10 +192,34 @@
 
 // Given an array of numbers, create a new array that contains only elements at even indices (0, 2, 4, etc.).
 
-const numbers = [10, 20, 30, 40, 50];
+// const numbers = [10, 20, 30, 40, 50];
 
-const evenIndices = numbers.filter(
-  (num, index) => index % 2 == 0 
-);
+// const evenIndices = numbers.filter(
+//   (num, index) => index % 2 == 0
+// );
 
-console.log(evenIndices)
+// console.log(evenIndices)
+
+// ES6 Classes
+// ES6 (ECMAScript 2015) introduced several new features to JavaScript, including the class syntax, which allows you to create and work with classes in a more structured and object-oriented way.
+
+// Defining a Class:
+// To define a class in ES6, you use the class keyword followed by the class name. Here's a simple example:
+
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet() {
+    console.log(`my name ${this.name} and I'm ${this.age}`);
+  }
+}
+
+const person1 = new Person("John", 20);
+const person2 = new Person("Lee", 30);
+
+console.log(person1.name);
+console.log(person2.age);
+person1.greet();

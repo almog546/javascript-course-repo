@@ -206,20 +206,179 @@
 // Defining a Class:
 // To define a class in ES6, you use the class keyword followed by the class name. Here's a simple example:
 
-class Person {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
+// class Person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
 
-  greet() {
-    console.log(`my name ${this.name} and I'm ${this.age}`);
-  }
-}
+//   greet() {
+//     console.log(`my name ${this.name} and I'm ${this.age}`);
+//   }
+// }
 
-const person1 = new Person("John", 20);
-const person2 = new Person("Lee", 30);
+// const person1 = new Person("John", 20);
+// const person2 = new Person("Lee", 30);
 
-console.log(person1.name);
-console.log(person2.age);
-person1.greet();
+// console.log(person1.name);
+// console.log(person2.age);
+// person1.greet();
+
+// Class Inheritance:
+
+// ES6 also supports inheritance, allowing you to create a new class that inherits properties and methods from an existing class. Here's an example:
+
+// What is a Class?
+// In JavaScript, a class is like a blueprint for creating objects. Think of it as a template for making things.
+
+// How to Define a Class?
+// To create a class, use the class keyword, followed by the class name. Here's a basic example:
+
+// class Person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+// }
+
+// const person1 = new Person("John", 20); // Creating Objects from a Class
+
+// // Accessing Data (Properties)
+// console.log(person1);
+// console.log(person1.age);
+// console.log(person1.name);
+
+// // Inheritance
+// // Sometimes, you want to make a new class that's like the old one but with some extra stuff. This is called inheritance.
+
+// class Student extends Person {
+//   constructor(name, age, grade) {
+//     super(name, age); // Call the parent class constructor
+//     this.grade = grade;
+//   }
+
+//   study() {
+//     console.log(`${this.name} is studying hard for their exams.`)
+//   }
+// }
+
+// const student1 = new Student('Anthony', 30, 90);
+
+// console.log(student1);
+// console.log(student1.grade);
+// student1.study();
+
+// Exercises
+// 1. Make a Fruit class with a constructor that takes name as a parameter.
+// 2. Create an instance of the Fruit class with the name "Apple."
+// 3. Add a method eat to the Fruit class that logs "Yummy, I'm eating an apple!" when called.
+// 4. Create a Banana class that inherits from Fruit and has a method peel that logs "I'm peeling a banana!" when called.
+// 5. Make an instance of the Banana class and call both the eat and peel methods.
+
+// class Fruit {
+//   constructor(name) {
+//     this.name = name;
+//   }
+
+//   eat() {
+//     console.log(`Yummy, I'm eating an ${this.name}`);
+//   }
+// }
+
+// const fruit1 = new Fruit("Apple");
+// console.log(fruit1.name);
+// fruit1.eat();
+
+// class Banana extends Fruit {
+//   peel() {
+//     console.log(`I'm peeling a banana!`);
+//   }
+// }
+
+// const banana = new Banana();
+// banana.peel();
+
+// Destructuring assignment
+// Destructuring assignment in JavaScript is a way to extract values from objects or arrays and assign them to variables in a more concise and readable manner.
+
+// Destructuring Objects:
+// 1. Object Destructuring:
+
+// const person = {
+//   firstName: "John",
+//   lastName: "Tom",
+//   age: 20,
+// };
+
+// const { firstName, lastName, age } = person;
+
+// console.log(firstName);
+// console.log(lastName);
+// console.log(age);
+
+// Here, we create variables (firstName, lastName, and age) that have the same names as the properties in the person object. The values from the object are automatically assigned to these variables.
+
+// 2. Default Values:
+// You can also provide default values in case a property doesn't exist:
+
+// const person = {
+//   firstName: "Anthony",
+// };
+
+// const { firstName, lastName = "Tony", age = 30 } = person;
+
+// console.log(firstName);
+// console.log(lastName);
+// console.log(age);
+
+// 3. Renaming Variables:
+// You can rename variables while destructuring:
+
+// const person = {
+//   firstName: "Sanji",
+//   lastName: "Vinsmoke",
+// };
+
+// const { firstName: first, lastName: last } = person;
+
+// console.log(first);
+// console.log(last);
+
+// Destructuring Arrays:
+// 1. Array Destructuring:
+
+// const colors = ["red", "yellow", "green"];
+
+// const [firstColor, secondColor, thirdColor] = colors;
+
+// console.log(firstColor);
+// console.log(thirdColor);
+// console.log(secondColor);
+
+// 3. Swapping Values:
+// Destructuring can be used for variable swapping without a temporary variable:
+
+// let a = 5;
+// let b = 10;
+
+// [a, b] = [b, a];
+
+// console.log(a);
+// console.log(b);
+
+// Problem 1: Destructuring an Object
+
+// Given an object representing a book's information:
+
+const book = {
+  title: "Clean Code",
+  author: "Robert Martin",
+  year: 2008,
+  rate: 4.8
+};
+
+const { title, author, year, rate: star } = book;
+
+console.log(title);
+console.log(year);
+console.log(star);

@@ -370,15 +370,83 @@
 
 // Given an object representing a book's information:
 
-const book = {
-  title: "Clean Code",
-  author: "Robert Martin",
-  year: 2008,
-  rate: 4.8
-};
+// const book = {
+//   title: "Clean Code",
+//   author: "Robert Martin",
+//   year: 2008,
+//   rate: 4.8
+// };
 
-const { title, author, year, rate: star } = book;
+// const { title, author, year, rate: star } = book;
 
-console.log(title);
-console.log(year);
-console.log(star);
+// console.log(title);
+// console.log(year);
+// console.log(star);
+
+// Nested objects
+// You can also use destructuring to extract properties from nested objects:
+
+// let address = {
+//   street: "12 Benson Street",
+//   city: "Maryland",
+//   state: "Legos",
+// };
+
+// let person = {
+//   name: "Adams Ade",
+//   age: 25,
+//   address,
+// };
+
+// let {
+//   name,
+//   age,
+//   address: { city },
+// } = person;
+// console.log(name, age, city);
+
+// Default values
+// Sometimes, you might need the value of an object property that might not be present in the given object. In that case, you can destructure the object and add default values for properties that might not be present in the object:
+
+// const job = {
+//   role: "Software Engineer",
+//   salary: 200000,
+//   applicationLink: "meta.com/careers/SWE-role/apply",
+// };
+
+// let { role, salary, isRemote = false } = job;
+
+// console.log(isRemote);
+
+// Rest items
+// The rest operator (...) in JavaScript is a powerful feature that allows developers to gather the remaining items in an array or an object into a new array or object. This can be useful in various situations, such as when working with function arguments or destructuring arrays and objects.
+
+// For example, if you need the first three elements from an array of books and need the remaining elements that are in the array, you can use the rest operator:
+
+const top20Books = [
+  "1. To Kill a Mockingbird",
+  "2. The Great Gatsby",
+  "3. The Catcher in the Rye",
+  "4. The Lord of the Rings",
+  "5. The Hobbit",
+  "6. The Diary of a Young Girl",
+  "7. The Grapes of Wrath",
+  "8. Animal Farm",
+  "9. 1984",
+  "10. The Adventures of Huckleberry Finn",
+  "11. The Adventures of Tom Sawyer",
+  "12. The Iliad",
+  "13. The Odyssey",
+  "14. The Republic",
+  "15. The Inferno",
+  "16. The Divine Comedy",
+  "17. The Canterbury Tales",
+  "18. Pride and Prejudice",
+  "19. Jane Eyre",
+  "20. Wuthering Heights",
+];
+
+let [firstBook, secondBook, thirdbook, ...remainingBooks] = top20Books;
+
+console.log(secondBook);
+console.log(...remainingBooks); // log the remaining books in the array

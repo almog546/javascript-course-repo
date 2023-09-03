@@ -15,7 +15,7 @@ This repository serves as a testament to my dedication and enthusiasm for master
 ## useful links
 [step by step visualizer](https://pythontutor.com/visualize.html#mode=edit)
 
+## tutorials
 [learn js online](https://learnjavascript.online)
 
-## tutorials
 [Destructuring in JavaScript](https://www.honeybadger.io/blog/javascript-destructuring/)

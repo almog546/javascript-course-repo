@@ -383,6 +383,8 @@
 // console.log(year);
 // console.log(star);
 
+// Destructuring in JavaScript
+
 // Nested objects
 // You can also use destructuring to extract properties from nested objects:
 
@@ -423,7 +425,46 @@
 
 // For example, if you need the first three elements from an array of books and need the remaining elements that are in the array, you can use the rest operator:
 
-const top20Books = [
+// const top20Books = [
+//   "1. To Kill a Mockingbird",
+//   "2. The Great Gatsby",
+//   "3. The Catcher in the Rye",
+//   "4. The Lord of the Rings",
+//   "5. The Hobbit",
+//   "6. The Diary of a Young Girl",
+//   "7. The Grapes of Wrath",
+//   "8. Animal Farm",
+//   "9. 1984",
+//   "10. The Adventures of Huckleberry Finn",
+//   "11. The Adventures of Tom Sawyer",
+//   "12. The Iliad",
+//   "13. The Odyssey",
+//   "14. The Republic",
+//   "15. The Inferno",
+//   "16. The Divine Comedy",
+//   "17. The Canterbury Tales",
+//   "18. Pride and Prejudice",
+//   "19. Jane Eyre",
+//   "20. Wuthering Heights",
+// ];
+
+// let [firstBook, secondBook, thirdbook, ...remainingBooks] = top20Books;
+
+// console.log(secondBook);
+// console.log(...remainingBooks); // log the remaining books in the array
+
+// Destructuring function parameters
+// JavaScript allows you to extract values from an object or array passed as a parameter to a function. Destructuring parameters is quite straightforward, as you only need to use the destructuring syntax inside the function:
+
+// function greet({ name, age }) {
+//   console.log(`Hello, ${name}. You are ${age} years old.`);
+// }
+
+// greet({ name: "John", age: 20 });
+
+// You can also do the same for arrays:
+
+const top10Books = [
   "1. To Kill a Mockingbird",
   "2. The Great Gatsby",
   "3. The Catcher in the Rye",
@@ -434,19 +475,13 @@ const top20Books = [
   "8. Animal Farm",
   "9. 1984",
   "10. The Adventures of Huckleberry Finn",
-  "11. The Adventures of Tom Sawyer",
-  "12. The Iliad",
-  "13. The Odyssey",
-  "14. The Republic",
-  "15. The Inferno",
-  "16. The Divine Comedy",
-  "17. The Canterbury Tales",
-  "18. Pride and Prejudice",
-  "19. Jane Eyre",
-  "20. Wuthering Heights",
 ];
 
-let [firstBook, secondBook, thirdbook, ...remainingBooks] = top20Books;
+function bookList([firstBook, secondBook, thirdBook, ...remainingBooks]) {
+  console.log(`First Book: ${firstBook}`);
+  console.log(`Second Book: ${secondBook}`);
+  console.log(`Third Book: ${thirdBook}`);
+  console.log(`Others: ${[...remainingBooks]}`);
+}
 
-console.log(secondBook);
-console.log(...remainingBooks); // log the remaining books in the array
+bookList(top10Books);

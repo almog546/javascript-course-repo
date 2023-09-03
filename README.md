@@ -17,5 +17,5 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [learn js online](https://learnjavascript.online)
 
-## youtube tutorial
-soon...
+## tutorials
+[Destructuring in JavaScript](https://www.honeybadger.io/blog/javascript-destructuring/)

@@ -385,6 +385,9 @@
 
 // Destructuring in JavaScript
 
+// Destructuring
+// Destructuring in JavaScript is dissecting data structures, arrays, and objects, in this case, to easily access the values inside them. Destructuring helps to unpack values from arrays and objects into distinct variables, so you do not have to dig through large arrays or objects to get the values you need.
+
 // Nested objects
 // You can also use destructuring to extract properties from nested objects:
 
@@ -464,24 +467,74 @@
 
 // You can also do the same for arrays:
 
-const top10Books = [
-  "1. To Kill a Mockingbird",
-  "2. The Great Gatsby",
-  "3. The Catcher in the Rye",
-  "4. The Lord of the Rings",
-  "5. The Hobbit",
-  "6. The Diary of a Young Girl",
-  "7. The Grapes of Wrath",
-  "8. Animal Farm",
-  "9. 1984",
-  "10. The Adventures of Huckleberry Finn",
-];
+// const top10Books = [
+//   "1. To Kill a Mockingbird",
+//   "2. The Great Gatsby",
+//   "3. The Catcher in the Rye",
+//   "4. The Lord of the Rings",
+//   "5. The Hobbit",
+//   "6. The Diary of a Young Girl",
+//   "7. The Grapes of Wrath",
+//   "8. Animal Farm",
+//   "9. 1984",
+//   "10. The Adventures of Huckleberry Finn",
+// ];
 
-function bookList([firstBook, secondBook, thirdBook, ...remainingBooks]) {
-  console.log(`First Book: ${firstBook}`);
-  console.log(`Second Book: ${secondBook}`);
-  console.log(`Third Book: ${thirdBook}`);
-  console.log(`Others: ${[...remainingBooks]}`);
-}
+// function bookList([firstBook, secondBook, thirdBook, ...remainingBooks]) {
+//   console.log(`First Book: ${firstBook}`);
+//   console.log(`Second Book: ${secondBook}`);
+//   console.log(`Third Book: ${thirdBook}`);
+//   console.log(`Others: ${[...remainingBooks]}`);
+// }
 
-bookList(top10Books);
+// bookList(top10Books);
+
+// Array destructuring
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// let [firstNumber] = numbers;
+
+// console.log(firstNumber);
+
+// Multiple elements
+
+// let num = [1, 2, 3, 4, 5];
+
+// let [firstNum, secondNum, thirdNum, fourthNum, fifthNum] = num;
+
+// console.log(fourthNum, fifthNum);
+
+// Nested arrays
+
+// let nestedArr = [[1,2], [3,4], [5,6]];
+
+// let [firstArray, secondArray, thirdArray] = nestedArr;
+
+// console.log(secondArray);
+
+// Object destructuring
+
+// let car = { brand: "Honda", color: "red" };
+
+// let { brand } = car;
+
+// console.log(brand);
+
+// Multiple properties
+
+// const car = {
+//   brand: "Ford",
+//   year: 2015,
+//   color: "blue",
+// };
+
+// const { brand, color } = car;
+// console.log(color);
+
+// Nested objects
+
+let address = { street: "12 Benson Street", city: "Maryland", state: "Lagos" };
+let person = { name: "Adams Ade", age: 25, address};
+let { name, age, address: { state } } = person;
+console.log(state);

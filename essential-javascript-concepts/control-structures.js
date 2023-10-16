@@ -71,3 +71,66 @@ let isEven = 8 % 2 == 0 ? console.log('Even') : console.log('Odd');
 
 
 // These control structures are essential for making decisions, performing repetitive tasks, and writing more complex and flexible JavaScript programs. They help you control the flow of your code and make it responsive to different conditions and situations.
+
+
+
+
+
+
+// Exercise 1: Conditional Statements
+
+// 1. Write an if statement to check if a given number num is positive. If it's positive, log "Number is positive" to the console.
+
+// 2. Extend the previous code to include an else statement that logs "Number is not positive" if the number is not positive.
+
+// Answers for Exercise 1:
+let num1 = 5;
+if (num1 > 0) {
+  console.log('Number is positive');
+} else {
+  console.log('Number is not positive');
+}
+
+
+// Exercise 2: Switch Statement
+
+// 1. Create a switch statement that takes a variable day and logs the corresponding message for the day of the week (e.g., "Monday", "Tuesday", etc.).
+// Answers for Exercise 2:
+let day = 'Monday';
+switch (day) {
+  case 'Monday':
+    console.log('Monday');
+    break;
+  case 'Tuesday':
+    console.log('Tuesday');
+    break;
+  default:
+    console.log('Not valid day');
+}
+
+
+// Exercise 3: Loops
+
+// 1. Use a for loop to print even numbers from 1 to 10.
+
+// 2. Use a while loop to count down from 5 to 1, and log each number.
+
+// Answers for Exercise 3:
+for (let numbers = 0; numbers <= 10; numbers+=2) {
+  console.log(numbers);
+}
+
+let num2 = 5;
+while (num2 >= 1) {
+  console.log(num2);
+  num2--;
+}
+
+
+// Exercise 4: Ternary Operator
+
+// Use the ternary operator to determine whether a given number x is even or odd and log the result.
+x = 10 % 2 == 0 ? console.log('even') : console.log('odd');
+
+
+// These exercises should help you practice using conditional statements, switch statements, loops, and the ternary operator in JavaScript. Understanding these control structures is essential for building dynamic and responsive code.

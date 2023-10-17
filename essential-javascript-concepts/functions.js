@@ -105,7 +105,33 @@ console.log(getFullName('John','Caballero'));
 
 // Exercise 3: Return Statements
 
-// Create a function square that takes a number as an argument and returns its square.
+// 1. Create a function square that takes a number as an argument and returns its square.
 
-// Call the square function with a number and log the result.
+// 2. Call the square function with a number and log the result.
 
+function square(number) {
+  return number ** 2;
+}
+
+console.log(square(6));
+
+
+// Exercise 4: Function Scope and Closures
+
+// Create a function outer that defines a variable outerVar. Inside outer, define an inner function inner that logs the value of outerVar.
+
+// Call the outer function and store the returned inner function in a variable. Then, call the inner function.
+function outerFunc() {
+  let variable = 'inner';
+
+  function innerFunc() {
+    console.log(variable);
+  }
+
+  return innerFunc();
+}
+
+outerFunc();
+
+
+// These exercises should help you practice working with function declarations, expressions, parameters, return statements, function scope, and closures in JavaScript. Functions are a fundamental building block of JavaScript, and mastering them is essential for writing complex and organized code.

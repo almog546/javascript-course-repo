@@ -13,6 +13,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 [What to learn before learning React](https://dev.to/stephanieopala/what-to-learn-before-learning-react-1a6h)
 
 ## useful links
+[fake api for testing](https://jsonplaceholder.typicode.com)
+
 [step by step visualizer](https://pythontutor.com/visualize.html#mode=edit)
 
 ## tutorials

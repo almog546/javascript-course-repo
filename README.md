@@ -23,3 +23,5 @@ This repository serves as a testament to my dedication and enthusiasm for master
 [Destructuring in JavaScript](https://www.honeybadger.io/blog/javascript-destructuring/)
 
 [How Async Javascript works (Callback Hell, Promises, Async Await, Call Stack and more)](https://youtu.be/1Z7FjG--F20?si=k1s45WV-wX_je5ZP)
+
+[Fetch API JavaScript in Easiest way | Fetch API Tutorial](https://youtu.be/Pnlt1NiBt68?si=IEBMRDXsIpCgwj5o)

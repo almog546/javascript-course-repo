@@ -27,3 +27,10 @@ This repository serves as a testament to my dedication and enthusiasm for master
 [Fetch API JavaScript in Easiest way | Fetch API Tutorial](https://youtu.be/Pnlt1NiBt68?si=IEBMRDXsIpCgwj5o)
 
 [Learn XML HTTP Requests in JavaScript | AJAX Tutorial](https://youtu.be/rjmtYkRK1nM?si=QcD-hSw6Q_kUhwjE)
+
+## notes
+
+[states](https://stackoverflow.com/questions/7133712/response-text-comparision)
+
+[A Complete Guide and List of HTTP Status Codes](https://kinsta.com/blog/http-status-codes/)
+

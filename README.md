@@ -28,6 +28,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Learn XML HTTP Requests in JavaScript | AJAX Tutorial](https://youtu.be/rjmtYkRK1nM?si=QcD-hSw6Q_kUhwjE)
 
+[Fetch API in JavaScript for AJAX Developers](https://youtu.be/ZTQcJWixB1k?si=1YX6bz5-HlTaq0sR)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

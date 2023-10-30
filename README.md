@@ -30,6 +30,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Fetch API in JavaScript for AJAX Developers](https://youtu.be/ZTQcJWixB1k?si=1YX6bz5-HlTaq0sR)
 
+[JavaScripts Errors](https://www.w3schools.com/js/js_errors.asp)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

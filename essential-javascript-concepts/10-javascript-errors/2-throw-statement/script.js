@@ -1,3 +1,18 @@
+function myFunction() {
+  const message = document.getElementById("text");
+  message.innerHTML = "";
+  let x = document.getElementById("demo").value;
+  try {
+    if (x.trim() == "") throw "empty";
+    if (isNaN(x)) throw "not a number";
+    x = Number(x);
+    if (x < 5) throw "too low";
+    if (x > 10) throw "too high";
+  } catch (error) {
+    message.innerHTML = "Input is " + error;
+  }
+}
+
 // JavaScript Throws Errors
 // When an error occurs, JavaScript will normally stop and generate an error message.
 
@@ -11,6 +26,3 @@
 // Technically you can throw an exception (throw an error).
 
 // The exception can be a JavaScript String, a Number, a Boolean or an Object:
-
-throw "Too big";
-throw 404;

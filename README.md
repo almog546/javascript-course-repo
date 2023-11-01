@@ -32,6 +32,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [JavaScripts Errors](https://www.w3schools.com/js/js_errors.asp)
 
+[How do closures work? (JavaScript Fundamentals, 2023)](https://youtu.be/uOgkeT-_Y-8?si=_EKChXA8zPfw9Ebo)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

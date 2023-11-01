@@ -1,8 +1,13 @@
-function getGreeter() {
-  const greeting = 'hello'
+// function getGreeter() {
+//   const greeting = 'hello'
 
+//   return (name) => `${greeting} ${name}`
+// }
+
+function getGreeter(greeting = 'hello') {
   return (name) => `${greeting} ${name}`
 }
 
-const greet = getGreeter()
-console.log(green('John'))
+
+const greet = getGreeter('goodbye')
+console.log(greet('John'))

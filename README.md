@@ -34,6 +34,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [How do closures work? (JavaScript Fundamentals, 2023)](https://youtu.be/uOgkeT-_Y-8?si=_EKChXA8zPfw9Ebo)
 
+[Difference Between Rest & Spread Operator ES6](https://youtu.be/ROqYo6GW0g4?si=Y3HmOpZnzkIeX0_F)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

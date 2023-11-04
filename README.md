@@ -44,3 +44,5 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [How to import and export in CommonJS and ES Modules](https://dev.to/lico/how-to-import-and-export-in-commonjs-and-es-modules-43m1)
 
+[Module Cheatsheet](https://www.samanthaming.com/tidbits/79-module-cheatsheet/)
+

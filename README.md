@@ -42,3 +42,5 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [A Complete Guide and List of HTTP Status Codes](https://kinsta.com/blog/http-status-codes/)
 
+[How to import and export in CommonJS and ES Modules](https://dev.to/lico/how-to-import-and-export-in-commonjs-and-es-modules-43m1)
+

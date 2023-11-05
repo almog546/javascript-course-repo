@@ -36,6 +36,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Difference Between Rest & Spread Operator ES6](https://youtu.be/ROqYo6GW0g4?si=Y3HmOpZnzkIeX0_F)
 
+[JavaScript Modules in 100 Seconds](https://youtu.be/qgRUr-YUk1Q?si=RkC8-S0V-R5vW04R)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

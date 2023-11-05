@@ -38,6 +38,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [JavaScript Modules in 100 Seconds](https://youtu.be/qgRUr-YUk1Q?si=RkC8-S0V-R5vW04R)
 
+[Javascript Modules | Export Import Syntax for ES6 Modules](https://youtu.be/Q3SBogjUfMk?si=Z__8zmd605H2384k)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

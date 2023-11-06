@@ -42,6 +42,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Javascript Modules | Export Import Syntax for ES6 Modules](https://youtu.be/Q3SBogjUfMk?si=Z__8zmd605H2384k)
 
+[ES Modules (import / export) for JavaScript Developers](https://youtu.be/zeicsyk7mdE?si=Opy6u-xZp5TTfgxG)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

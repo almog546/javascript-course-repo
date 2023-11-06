@@ -14,7 +14,7 @@ function printRole() {
   console.log(person.role);
 }
 
-module.export = {
+module.exports = {
   person,
   printName,
   printRole,

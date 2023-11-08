@@ -44,6 +44,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [ES Modules (import / export) for JavaScript Developers](https://youtu.be/zeicsyk7mdE?si=Opy6u-xZp5TTfgxG)
 
+[Mastering Cookies, Local Storage, and Session Storage](https://youtu.be/I4OIBiwV0pc?si=vH3190RT0jpoloR5)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

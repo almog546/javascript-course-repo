@@ -48,6 +48,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Best Debugging Tips For Beginners](https://youtu.be/gaminoBsQx0?si=GGapMccCSaishLcN)
 
+[The New Way To Debug JavaScript in VS Code - No Extension Required](https://youtu.be/tC91t9OvVHA?si=EHEztvdx5bmOjN1d)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Storage and Cookies</title>
+</head>
+<body>
+  <h1>Local Storage & Cookies</h1>
+  <script>
+    // local storage
+    localStorage.setItem('name', 'John') // add
+    console.log(localStorage.getItem('name'))
+
+    localStorage.removeItem('name') // remove
+
+
+    // Cookies
+    document.cookie = "name=John; expires=Wed, 09 Nov 2023 02:04:08 GMT" // add cookie
+    const name = document.cookie.split('=')[1]
+    console.log(name)
+
+    document.cookie = "name=John; expires=Wed, 07 Nov 2023 02:04:08 GMT" // expire or remove cookie
+  </script>
+</body>
+</html>
+
+
+<!-- Local storage and cookies are two ways to store data on the client-side, meaning that the data is stored on the user's device. This is in contrast to server-side storage, where the data is stored on the server where the website is hosted.
+
+Local storage is a newer and more modern way to store data on the client-side. It is supported by all major browsers and has a number of advantages over cookies, including:
+
+Larger storage capacity: Local storage can store up to 5MB of data, while cookies are limited to 4KB of data.
+Persistence: Local storage data is persisted across browser sessions and page reloads, while cookie data is typically deleted when the browser is closed.
+Accessibility: Local storage data can be accessed by JavaScript, while cookie data can only be accessed by the website that created it.
+Cookies are older and more widely supported than local storage. They are also smaller in size, making them ideal for storing small amounts of data, such as a user's login session or language preferences.
+
+When to use local storage:
+
+When you need to store a large amount of data on the client-side.
+When you need to store data that needs to persist across browser sessions and page reloads.
+When you need to access the data from JavaScript.
+When to use cookies:
+
+When you need to store a small amount of data on the client-side.
+When you need to store data that is specific to a particular website.
+When you need to be compatible with older browsers. -->

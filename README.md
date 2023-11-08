@@ -46,6 +46,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Mastering Cookies, Local Storage, and Session Storage](https://youtu.be/I4OIBiwV0pc?si=vH3190RT0jpoloR5)
 
+[Best Debugging Tips For Beginners](https://youtu.be/gaminoBsQx0?si=GGapMccCSaishLcN)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

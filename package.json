@@ -4,9 +4,12 @@
   "description": "<p align=\"center\">   <a href=\"https://github.com/emailjohnthomascaballero\">     <img src=\"https://getflywheel.com/layout/wp-content/uploads/2021/07/The_Best_Java_Script_Libraries_1800x500-1-1800x500-1.jpeg\" alt=\"JavaScript Banner\" width=\"100%\">   </a> </p>",
   "main": "CodeMNL_Notes.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

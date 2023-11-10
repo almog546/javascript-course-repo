@@ -50,6 +50,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [The New Way To Debug JavaScript in VS Code - No Extension Required](https://youtu.be/tC91t9OvVHA?si=EHEztvdx5bmOjN1d)
 
+[Introduction To Testing In JavaScript With Jest](https://youtu.be/FgnxcUQ5vho?si=HXEsjKC-B6EgZwCZ)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

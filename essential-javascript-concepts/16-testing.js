@@ -61,3 +61,21 @@
 // toThrow(): Assert that a function throws an exception.
 // toContain(): Check if an array or string contains a specific value.
 
+
+
+
+
+
+
+
+
+// Unit testing is a type of software testing where individual units of code are tested to determine whether they are working as expected. A unit of code can be a function, class, module, or other piece of code that is well-defined and can be tested independently.
+
+// Here are some additional tips for unit testing with Jest or Mocha:
+
+// -Write small, focused tests. Each test should test a single unit of code and should be as isolated as possible.
+// -Use assertion libraries to verify the results of your tests. Assertion libraries provide a variety of methods for asserting that values are equal, not equal, greater than, less than, and so on.
+// -Use mocking frameworks to simulate the behavior of external dependencies. Mocking frameworks allow you to write tests without having to rely on real external dependencies.
+// -Run your tests regularly. You should run your tests after making any changes to your code to ensure that you have not broken anything.
+
+// Unit testing can be a bit of a learning curve at first, but it is a valuable skill to have. By following the tips above, you can get started with unit testing your JavaScript code with Jest or Mocha.

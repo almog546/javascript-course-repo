@@ -65,3 +65,5 @@ This repository serves as a testament to my dedication and enthusiasm for master
 [Module Cheatsheet](https://www.samanthaming.com/tidbits/79-module-cheatsheet/)
 
 [JEST](https://jestjs.io/docs/getting-started)
+
+[What is the difference between 'toBe' and 'toEqual' in Jest?](https://stackoverflow.com/questions/45195025/what-is-the-difference-between-tobe-and-toequal-in-jest)

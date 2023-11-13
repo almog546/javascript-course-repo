@@ -52,6 +52,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Introduction To Testing In JavaScript With Jest](https://youtu.be/FgnxcUQ5vho?si=HXEsjKC-B6EgZwCZ)
 
+[Jest Crash Course - Unit Testing in JavaScript](https://youtu.be/7r4xVDI2vho?si=v43SQcieCe_HKd93)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

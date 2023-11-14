@@ -50,3 +50,27 @@ test('Should be under 1600', () => {
   expect(load1 + load2).toBeLessThan(1600)
 })
 
+test('Should be equal or lessthan 1600', () => {
+  const load1 = 800
+  const load2 = 800
+  expect(load1 + load2).toBeLessThanOrEqual(1600)
+})
+
+// not toMatch and toMatch
+test('These is no I in team', () => { 
+  expect('team').not.toMatch(/I/)
+})
+
+test('but there is a "stop" in Christoph', () => {
+  expect('Christoph').toMatch(/stop/);
+});
+
+// regex
+test('These is no I in team', () => { 
+  expect('team').not.toMatch(/I/i)
+})
+
+
+
+
+// STOP 20:00

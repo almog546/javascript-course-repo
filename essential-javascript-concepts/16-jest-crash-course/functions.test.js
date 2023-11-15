@@ -71,6 +71,8 @@ test('These is no I in team', () => {
 })
 
 
-
-
-// STOP 20:00
+// arrays
+test('Admin should be in username', () => { 
+  username = ['John', 'Helena', 'Admin']
+  expect(username).toContain('Admin')
+})

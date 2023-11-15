@@ -54,6 +54,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Jest Crash Course - Unit Testing in JavaScript](https://youtu.be/7r4xVDI2vho?si=v43SQcieCe_HKd93)
 
+[Axios js tutorial in 120 seconds](https://youtu.be/j284YeATTAI?si=hEfUQ1K-niRgR9Gq)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

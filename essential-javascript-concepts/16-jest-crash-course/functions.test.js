@@ -81,9 +81,19 @@ test('Admin should be in username', () => {
 // working with async data
 
 // Promise
-test('user fetch name should be Leanne Graham', () => { 
+// test('user fetch name should be Leanne Graham', () => { 
+//   expect.assertions(1)
+//   return functions.fetchUser().then(data => {
+//     expect(data.name).toEqual('Leanne Graham')
+//   })
+// })
+
+// Async Await
+test('user fetch name should be Leanne Graham', async () => { 
   expect.assertions(1)
-  return functions.fetchUser().then(data => {
-    expect(data.name).toEqual('Leanne Graham')
-  })
+  const data = await functions.fetchUser()
+  expect(data.name).toEqual('Leanne Graham')
 })
+
+
+// 29:25

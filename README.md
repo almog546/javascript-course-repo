@@ -56,6 +56,10 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Axios js tutorial in 120 seconds](https://youtu.be/j284YeATTAI?si=hEfUQ1K-niRgR9Gq)
 
+[Cross-Site Scripting (XSS) Explained And Demonstrated By A Pro Hacker!](https://youtu.be/PPzn4K2ZjfY?si=9KBnByEMF2lVtVsF)
+
+[Cross-Site Request Forgery (CSRF) Explained And Demonstrated By A Pro Hacker!](https://youtu.be/V03_7CphtHE?si=CP-VY_u4Ic6HTuQb)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

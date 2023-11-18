@@ -73,3 +73,5 @@ This repository serves as a testament to my dedication and enthusiasm for master
 [JEST](https://jestjs.io/docs/getting-started)
 
 [What is the difference between 'toBe' and 'toEqual' in Jest?](https://stackoverflow.com/questions/45195025/what-is-the-difference-between-tobe-and-toequal-in-jest)
+
+[Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)

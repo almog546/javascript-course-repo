@@ -60,6 +60,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Cross-Site Request Forgery (CSRF) Explained And Demonstrated By A Pro Hacker!](https://youtu.be/V03_7CphtHE?si=CP-VY_u4Ic6HTuQb)
 
+[Cross-Site Scripting Explained with Examples and How to Prevent XSS with Content Security Policy](https://youtu.be/pD6C1-zSxIM?si=Gpqttjc5xdX5uddo)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

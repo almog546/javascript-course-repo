@@ -62,6 +62,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Cross-Site Scripting Explained with Examples and How to Prevent XSS with Content Security Policy](https://youtu.be/pD6C1-zSxIM?si=Gpqttjc5xdX5uddo)
 
+[Content Security Policy explained | how to protect against Cross Site Scripting (XSS)](https://youtu.be/txHc4zk6w3s?si=aJG9BXvnVoR9_5H4)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

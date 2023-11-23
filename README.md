@@ -64,6 +64,9 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Content Security Policy explained | how to protect against Cross Site Scripting (XSS)](https://youtu.be/txHc4zk6w3s?si=aJG9BXvnVoR9_5H4)
 
+[How to Minify Your Website's CSS, HTML & Javascript](https://youtu.be/6Bqgdwihfuo?si=Lu_lMLZr0ez1EO8r)
+
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)
@@ -79,3 +82,6 @@ This repository serves as a testament to my dedication and enthusiasm for master
 [What is the difference between 'toBe' and 'toEqual' in Jest?](https://stackoverflow.com/questions/45195025/what-is-the-difference-between-tobe-and-toequal-in-jest)
 
 [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+
+[How to Minify Your Website’s CSS, HTML & Javascript](https://www.elegantthemes.com/blog/tips-tricks/how-to-minify-your-websites-css-html-javascript)
+

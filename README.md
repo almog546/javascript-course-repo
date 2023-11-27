@@ -68,6 +68,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [gzip file compression in 100 Seconds](https://youtu.be/NLtt4S9ErIA?si=nEK-R0Hufx9dEAee)
 
+[How File Compression Increases Your Website Speed: BROTLI vs GZIP Algorithms](https://youtu.be/BMCvMWqoivs?si=uTHFVu2LGOhcbr0M)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

@@ -66,6 +66,7 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [How to Minify Your Website's CSS, HTML & Javascript](https://youtu.be/6Bqgdwihfuo?si=Lu_lMLZr0ez1EO8r)
 
+[gzip file compression in 100 Seconds](https://youtu.be/NLtt4S9ErIA?si=nEK-R0Hufx9dEAee)
 
 ## notes
 

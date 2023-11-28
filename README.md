@@ -87,5 +87,3 @@ This repository serves as a testament to my dedication and enthusiasm for master
 [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
 
 [How to Minify Your Website’s CSS, HTML & Javascript](https://www.elegantthemes.com/blog/tips-tricks/how-to-minify-your-websites-css-html-javascript)
-
-##

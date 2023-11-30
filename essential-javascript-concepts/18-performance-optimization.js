@@ -63,3 +63,6 @@
 //After minification:
 
 // function calculateTotal(a,b){return a*b}
+
+// Compression:
+// Compression further reduces file sizes by compressing them before transmission. Commonly used compression algorithms include Gzip and Brotli.

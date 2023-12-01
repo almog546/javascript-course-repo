@@ -70,6 +70,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [How File Compression Increases Your Website Speed: BROTLI vs GZIP Algorithms](https://youtu.be/BMCvMWqoivs?si=uTHFVu2LGOhcbr0M)
 
+[How to use compression in Nodejs to make it faster and smaller by at least 10 times.](https://youtu.be/jZ6x5Ab7Bgc?si=v2sxPfc258Z_73FE)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

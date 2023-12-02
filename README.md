@@ -72,6 +72,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [How to use compression in Nodejs to make it faster and smaller by at least 10 times.](https://youtu.be/jZ6x5Ab7Bgc?si=v2sxPfc258Z_73FE)
 
+[Minify CSS, JavaScript, HTML easily right from Code Editor](https://youtu.be/AY40N9a9PDA?si=A7LC_KBpCrgOhsrg)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

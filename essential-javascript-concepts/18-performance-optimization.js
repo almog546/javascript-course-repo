@@ -66,3 +66,8 @@
 
 // Compression:
 // Compression further reduces file sizes by compressing them before transmission. Commonly used compression algorithms include Gzip and Brotli.
+
+// Implementation:
+// Minification:
+
+// Use minification tools such as UglifyJS for JavaScript, CSSNano for CSS, and HTMLMinifier for HTML.

@@ -74,6 +74,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Minify CSS, JavaScript, HTML easily right from Code Editor](https://youtu.be/AY40N9a9PDA?si=A7LC_KBpCrgOhsrg)
 
+[How to Enable Gzip Compression in Nginx to Speed Up Your Website](https://youtu.be/JssGjwp0CeQ?si=TzJwFX6oLznLaqAl)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

@@ -68,6 +68,9 @@
 // Compression further reduces file sizes by compressing them before transmission. Commonly used compression algorithms include Gzip and Brotli.
 
 // Implementation:
-// Minification:
-
+// 1. Minification:
 // Use minification tools such as UglifyJS for JavaScript, CSSNano for CSS, and HTMLMinifier for HTML.
+
+// 2. Compression:
+// Enable server-side compression. Most web servers (Apache, Nginx) support Gzip or Brotli compression. Ensure it's configured properly.
+

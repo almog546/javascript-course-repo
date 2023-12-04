@@ -74,3 +74,11 @@
 // 2. Compression:
 // Enable server-side compression. Most web servers (Apache, Nginx) support Gzip or Brotli compression. Ensure it's configured properly.
 
+// # Nginx configuration for Gzip compression
+// gzip on;
+// gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+
+// # Apache configuration for Gzip compression
+// <IfModule mod_deflate.c>
+//   AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript application/x-httpd-php application/json
+// </IfModule>

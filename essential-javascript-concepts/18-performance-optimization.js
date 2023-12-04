@@ -82,3 +82,17 @@
 // <IfModule mod_deflate.c>
 //   AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript application/x-httpd-php application/json
 // </IfModule>
+
+
+
+// 2. Lazy Loading Resources:
+// Lazy loading defers the loading of non-critical resources until they are needed. This can significantly improve initial page load times.
+
+// Implementation:
+// 1. Lazy Loading Images:
+
+// Use the loading attribute on the <img> tag to lazy load images.
+
+// <img src="image.jpg" alt="Description" loading="lazy">
+
+

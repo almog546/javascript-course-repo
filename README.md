@@ -76,6 +76,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [How to Enable Gzip Compression in Nginx to Speed Up Your Website](https://youtu.be/JssGjwp0CeQ?si=TzJwFX6oLznLaqAl)
 
+[Are you optimally loading your images?](https://youtu.be/-zzmfjIiC3M?si=YCWdex4K6lZaNLN3)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

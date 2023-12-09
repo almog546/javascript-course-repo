@@ -95,4 +95,10 @@
 
 // <img src="image.jpg" alt="Description" loading="lazy">
 
+// 2. Lazy Loading Iframes:
+
+// For iframes, use the loading attribute.
+
+// <iframe src="https://example.com" loading="lazy"></iframe>
+
 

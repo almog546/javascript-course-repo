@@ -78,6 +78,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Are you optimally loading your images?](https://youtu.be/-zzmfjIiC3M?si=YCWdex4K6lZaNLN3)
 
+[Lazy Loading without CSS and JavaScript | Website Speed Optimization](https://youtu.be/dTdGUzA5EHY?si=MNY-qD0Y_jLMXu3U)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

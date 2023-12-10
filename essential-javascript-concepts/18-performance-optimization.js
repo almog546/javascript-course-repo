@@ -101,4 +101,11 @@
 
 // <iframe src="https://example.com" loading="lazy"></iframe>
 
+// 3. Lazy Loading JavaScript:
+
+// For JavaScript, use the defer attribute to ensure scripts are executed in order after the HTML has been parsed.
+
+// <script src="script.js" defer></script>
+
+
 

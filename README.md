@@ -80,6 +80,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Lazy Loading without CSS and JavaScript | Website Speed Optimization](https://youtu.be/dTdGUzA5EHY?si=MNY-qD0Y_jLMXu3U)
 
+[What Is The Fastest Way To Load JavaScript](https://youtu.be/BMuFBYw91UQ?si=G6e3JFXLdAF5evQS)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

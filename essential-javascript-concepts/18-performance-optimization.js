@@ -109,3 +109,31 @@
 
 
 
+// 3. Asynchronous Loading of Scripts:
+// Asynchronous loading allows scripts to load without blocking other resources, improving parallelization.
+
+// Implementation:
+// 1. async Attribute:
+
+// Use the async attribute for external scripts that don't depend on the DOM structure.
+
+// <script src="script.js" async></script>
+
+// 2. Dynamic Script Loading:
+
+// Use JavaScript to dynamically load scripts after the initial page load.
+// var script = document.createElement('script');
+// script.src = 'script.js';
+// document.head.appendChild(script);
+
+// 3. defer Attribute:
+
+// Use the defer attribute for scripts that need to be executed in order but don't block rendering.
+
+{/* <script src="script1.js" defer></script>
+<script src="script2.js" defer></script>
+
+These performance optimization techniques help reduce page load times and create a more responsive user experience. Incorporating them into your web development workflow can lead to faster-loading websites, better user satisfaction, and improved search engine rankings. */}
+
+
+

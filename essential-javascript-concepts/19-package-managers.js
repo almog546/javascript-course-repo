@@ -89,3 +89,52 @@
 
 // npm run test
 
+
+
+// yarn:
+// What is yarn?
+// yarn is an alternative package manager for JavaScript. It was developed by Facebook and aims to be more efficient and secure than npm while providing a similar interface.
+
+// Getting Started with yarn:
+// 1. Installation:
+
+// Install yarn globally on your machine:
+// npm install -g yarn
+
+// 2. Initializing a Project:
+
+// Create a new project by running:
+
+// yarn init
+
+// 3. Installing Dependencies:
+
+// Use yarn add to install dependencies. For example, to install axios:
+
+// yarn add axios
+
+// 4. Adding Development Dependencies:
+
+// To add a package as a development dependency, use the --dev flag:
+
+// yarn add --dev jest
+
+// 5. Running Scripts:
+
+// Define scripts in the "scripts" field of your package.json file and run them using yarn. For example:
+
+// "scripts": {
+//     "test": "jest"
+//   }
+
+// Run the script with:
+// yarn test
+
+// Key Differences:
+// Speed: yarn is generally faster than npm due to its parallel installation of packages.
+// Deterministic Dependency Resolution: yarn uses a lock file (yarn.lock) to ensure deterministic dependency resolution, providing consistency across different environments.
+// Offline Mode: yarn has an offline mode, allowing you to install packages without an internet connection.
+
+// Both npm and yarn are widely used and have large, active communities. The choice between them often comes down to personal preference and the specific needs of your project.
+
+

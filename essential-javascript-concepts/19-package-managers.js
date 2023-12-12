@@ -42,3 +42,50 @@
 // Don't hesitate to ask questions and seek help from the community if you get stuck.
 // Remember, the best tool for you depends on your specific needs and preferences. Experiment with both npm and Yarn and see which one you prefer.
 
+
+
+
+
+
+
+
+
+
+// npm (Node Package Manager):
+// What is npm?
+// npm is the default package manager for Node.js and is widely used in the JavaScript ecosystem. It allows you to easily manage and install dependencies for your projects.
+
+// 1. Getting Started with npm:
+// Installation:
+
+// npm is included with Node.js. When you install Node.js, npm is automatically installed.
+
+// 2.Initializing a Project:
+
+// To start a new project, create a package.json file using the following command:
+// npm init
+
+// 3. Installing Dependencies:
+
+// Use npm install to install dependencies. For example, to install the lodash library:
+
+// npm install lodash
+
+// 4. Adding Development Dependencies:
+
+// To add a package as a development dependency (e.g., for testing or build tasks), use the --save-dev flag:
+
+// npm install --save-dev mocha
+
+// 5. Running Scripts:
+
+// Add custom scripts to your package.json file under the "scripts" field. For example, to run a script named "test":
+
+// "scripts": {
+//     "test": "mocha"
+//   }
+
+// Run the script with:
+
+// npm run test
+

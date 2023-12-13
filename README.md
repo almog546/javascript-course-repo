@@ -84,6 +84,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [NPM, Yarn and pNPm](https://youtu.be/ZIKDJBrk56k?si=nzLrakDYtxdctBSo)
 
+[Why I Switched From NPM/Yarn to PNPM And Why You Should Too!](https://youtu.be/d1E31WPR70g?si=b5xXtdSJutXZ0MN8)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

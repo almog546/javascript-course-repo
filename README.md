@@ -82,6 +82,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [What Is The Fastest Way To Load JavaScript](https://youtu.be/BMuFBYw91UQ?si=G6e3JFXLdAF5evQS)
 
+[NPM, Yarn and pNPm](https://youtu.be/ZIKDJBrk56k?si=nzLrakDYtxdctBSo)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

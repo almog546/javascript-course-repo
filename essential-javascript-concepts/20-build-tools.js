@@ -27,3 +27,20 @@
 // Improved performance: Bundled and optimized code loads faster and reduces network traffic.
 // Consistent browser compatibility: Transpiled code ensures your app works across different browsers.
 // Improved developer experience: Build tools automate repetitive tasks, saving you time and effort.
+
+// Getting started:
+
+// Choose a build tool: Webpack and Babel are great for beginners, but consider your project size and complexity.
+// Learn the basics: Each tool has its own commands and configuration options. Explore online tutorials and documentation.
+// Start simple: Don't try to implement everything at once. Begin with basic bundling and transpiling, and gradually add more features.
+// Practice and experiment: The best way to learn is by doing. Don't be afraid to experiment and seek help from the community.
+
+// Remember: Build tools are powerful but can have a learning curve. Don't get discouraged! Start with the basics, practice consistently, and you'll be bundling and transpiling like a pro in no time.
+
+// Additional resources:
+
+// Webpack: https://webpack.js.org/
+// Babel: https://babeljs.io/docs/
+// Rollup: https://rollupjs.org/
+// Parcel: https://www.npmjs.com/package/parcel-bundler
+

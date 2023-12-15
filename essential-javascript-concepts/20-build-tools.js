@@ -44,3 +44,19 @@
 // Rollup: https://rollupjs.org/
 // Parcel: https://www.npmjs.com/package/parcel-bundler
 
+
+
+
+
+
+
+// Webpack:
+// What is Webpack?
+// Webpack is a popular open-source JavaScript module bundler. It takes your JavaScript, CSS, and other assets, and bundles them together in a way that is optimized for the web. Webpack helps with code splitting, bundling, and managing dependencies, making it a powerful tool for modern web development.
+
+// Babel:
+// What is Babel?
+// Babel is a JavaScript compiler that allows you to use the latest ECMAScript features (ES6+, ESNext) in your code and then compiles it into a version of JavaScript that is compatible with most browsers. This process is known as transpiling.
+
+// These basic setups for Webpack and Babel provide a foundation for modern web development. As your project grows, you can explore additional features and plugins offered by these tools to enhance your workflow, such as code splitting, hot module replacement, and optimization plugins.
+

@@ -86,6 +86,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Why I Switched From NPM/Yarn to PNPM And Why You Should Too!](https://youtu.be/d1E31WPR70g?si=b5xXtdSJutXZ0MN8)
 
+[Don't learn Webpack in 2023: A dive into 3 alternatives](https://youtu.be/RAvdPTkVpCE?si=lM_pH5AVyZvYAWlZ)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

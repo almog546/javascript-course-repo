@@ -88,6 +88,8 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Don't learn Webpack in 2023: A dive into 3 alternatives](https://youtu.be/RAvdPTkVpCE?si=lM_pH5AVyZvYAWlZ)
 
+[Why I always use ESLint in my projects](https://youtu.be/ZuDIXV94Z1w?si=hc5BObN-EAbCw47Y)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

@@ -90,6 +90,14 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [Why I always use ESLint in my projects](https://youtu.be/ZuDIXV94Z1w?si=hc5BObN-EAbCw47Y)
 
+[React in 100 Seconds](https://youtu.be/Tn6-PIqc4UM?si=-6052IyHnF15HIQj)
+
+[Angular in 100 Seconds](https://youtu.be/Ata9cSC2WpM?si=PRFCEq_A6iubbMUV)
+
+[Vue.js Explained in 100 Seconds](https://youtu.be/nhBVL41-_Cw?si=SVKvJr7tKw5HdIe5)
+
+[Which JS Framework is best?](https://youtu.be/cuHDQhDhvPE?si=0jo33njPHdNvfsaN)
+
 ## notes
 
 [states](https://stackoverflow.com/questions/7133712/response-text-comparision)

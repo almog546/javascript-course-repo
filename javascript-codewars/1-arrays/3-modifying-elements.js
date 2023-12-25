@@ -17,10 +17,16 @@ console.log(removeElement);
 // Unshift (add to the beginning):
 let letters = ["a", "b", "c"];
 letters.unshift("z");
-console.log(letters)
+console.log(letters);
 
 // Shift (remove from the beginning):
-let pets = ['dog', 'cat', 'turtle']
-let removeFirst = pets.shift()
-console.log(pets)
+let pets = ["dog", "cat", "turtle"];
+let removeFirst = pets.shift();
+console.log(pets);
+
+// Slice (extract a section):
+let programmingLanguage = ["javascript", "php", "python", "java", "c++"];
+let slicedLanguage = programmingLanguage.slice(1, 4);
+console.log(programmingLanguage);
+console.log(slicedLanguage);
 

@@ -8,3 +8,19 @@ let fruits = ["Apple", "Durian", "Banana"];
 fruits.push("grape");
 console.log(fruits);
 
+// Pop (remove from the end):
+let planet = ["earth", "mars", "jupiter"];
+let removeElement = planet.pop();
+console.log(planet);
+console.log(removeElement);
+
+// Unshift (add to the beginning):
+let letters = ["a", "b", "c"];
+letters.unshift("z");
+console.log(letters)
+
+// Shift (remove from the beginning):
+let pets = ['dog', 'cat', 'turtle']
+let removeFirst = pets.shift()
+console.log(pets)
+

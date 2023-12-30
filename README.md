@@ -19,7 +19,7 @@ This repository serves as a testament to my dedication and enthusiasm for master
 
 [bard google AI](https://bard.google.com/chat)
 
-## tutorials
+## tutorials for Essential JavaScript Concepts
 [learn js online](https://learnjavascript.online)
 
 [Destructuring in JavaScript](https://www.honeybadger.io/blog/javascript-destructuring/)
@@ -97,6 +97,10 @@ This repository serves as a testament to my dedication and enthusiasm for master
 [Vue.js Explained in 100 Seconds](https://youtu.be/nhBVL41-_Cw?si=SVKvJr7tKw5HdIe5)
 
 [Which JS Framework is best?](https://youtu.be/cuHDQhDhvPE?si=0jo33njPHdNvfsaN)
+
+## tutorials for JavaScript Codewars
+
+[What is Pseudocode Explained](https://youtu.be/qfckDdsEIq8?si=gUe-BgDRyvkj-t4F)
 
 ## notes
 

@@ -10,3 +10,25 @@
 // Given a random non-negative number,
 // you have to return the digits
 // of this number within an array in reverse order
+
+// pseudocode:
+
+// input a number
+// check if number is non-negative
+// assign the number in an array
+// reverse order the number in the array
+// return the number in array
+
+digitize(35231);
+
+function digitize(n) {
+  let array = []
+  // n >= 0 ? console.log(n) : console.log('number is negative');
+  if (n >= 0) {
+    // console.log(n)
+    array[0] = n;
+    console.log(array)
+  } else {
+    console.log('number is negative')
+  }
+}
